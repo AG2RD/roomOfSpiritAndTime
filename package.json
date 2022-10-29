@@ -61,6 +61,7 @@
     "@storybook/builder-webpack5": "^6.5.13",
     "@storybook/manager-webpack5": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
+    "@testing-library/angular": "^12.1.2",
     "@types/jest": "^29.2.0",
     "babel-loader": "^8.2.5",
     "firebase-tools": "^11.15.0",
