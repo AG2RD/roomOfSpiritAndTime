@@ -23,7 +23,8 @@
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/tests",
-      "<rootDir>/tests-examples"
+      "<rootDir>/tests-examples",
+      "<rootDir>/src/app/stories"
     ]
   },
   "private": true,
@@ -36,6 +37,7 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "@ngneat/cashew": "^3.0.0",
     "@ngxs/store": "^3.7.5",
     "@videogular/ngx-videogular": "^6.0.0",
     "date-fns": "^2.29.3",

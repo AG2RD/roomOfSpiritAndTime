@@ -1,0 +1,12 @@
+<div class="list-item">
+  {{ label }}
+  <label [attr.aria-label]="'{{task.label}}'" for="title">
+    <input
+      type="text"
+      [value]="task.title"
+      readonly="true"
+      id="title"
+      name="title"
+    />
+  </label>
+</div>
