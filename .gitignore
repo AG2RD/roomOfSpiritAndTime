@@ -43,3 +43,8 @@ Thumbs.db
 /test-results/
 /playwright-report/
 /playwright/.cache/
+
+#private api
+swagger/*
+/src/app/api/*
+/src/app/models/*
