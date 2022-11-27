@@ -46,5 +46,4 @@ Thumbs.db
 
 #private api
 swagger/*
-/src/app/api/*
-/src/app/models/*
+/src/app/core/api/*
