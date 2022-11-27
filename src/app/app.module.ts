@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxsStoreModule } from 'src/store/store.module';
+import { NgxsStoreModule } from 'src/app/core/store/store.module';
 
 import ButtonComponent from '../stories/button.component';
 import { AppRoutingModule } from './app-routing.module';

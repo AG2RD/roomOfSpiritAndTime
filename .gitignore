@@ -47,3 +47,6 @@ Thumbs.db
 #private api
 swagger/*
 /src/app/core/api/*
+
+#firebase
+.firebase/*

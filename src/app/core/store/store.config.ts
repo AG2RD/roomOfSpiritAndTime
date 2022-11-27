@@ -2,9 +2,11 @@ import { NgxsDevtoolsOptions } from '@ngxs/devtools-plugin/src/symbols';
 import { NgxsLoggerPluginOptions } from '@ngxs/logger-plugin/src/symbols';
 import { NgxsConfig } from '@ngxs/store/src/symbols';
 
+import { ApplicationState } from './application/application.state';
 import { AuthenticationState } from './authentication/authentication.state';
 
 export const STATES_MODULES = [
+  ApplicationState,
   AuthenticationState,
   // DashboardStateModule,
   // ...DashboardStates,
